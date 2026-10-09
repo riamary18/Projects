@@ -4,6 +4,8 @@ import chromadb
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 
+# Open text -> read content -> chunking(splitter) -> get embeddings -> create vectore store (ids, chunks, embeddings) -> 
+# retrieve top relevant chunks(question, collection) -> get llm -> generate answer
 
 def read_contents(file):
     with open(f'{file}.txt', 'r') as f:
