@@ -1,2 +1,2 @@
-# Computer_Vision_Projects
-This repository contains small projects undertaken by me in the field of computer vision.
+# Projects
+A collection of mini-projects exploring Data Science, Artificial Intelligence, and related fields through hands-on experimentation and practical implementation.
